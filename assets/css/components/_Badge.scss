@@ -1,0 +1,25 @@
+.badge {
+    padding: 0.6rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #e7e7e7;
+    color: #888;
+    transition: 0.2s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+}
+
+.badge:active {
+    transform: scale(1.2);
+}

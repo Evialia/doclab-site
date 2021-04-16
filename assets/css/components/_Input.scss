@@ -1,0 +1,27 @@
+.form-control {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 0.8rem 0 rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.form-control input {
+    background-color: transparent;
+    width: 100%;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #444;
+}
+
+.form-control .badge {
+    margin-right: 1.5rem;
+}
+
+.form-control:hover {
+    box-shadow: 0 0.3rem 1rem 0.2rem rgba(0, 0, 0, 0.1);
+}

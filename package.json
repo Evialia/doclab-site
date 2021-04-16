@@ -1,0 +1,37 @@
+{
+    "devDependencies": {
+        "@babel/core": "7.3.4",
+        "@babel/plugin-transform-modules-commonjs": "7.2.0",
+        "@babel/plugin-transform-runtime": "7.12.1",
+        "@babel/polyfill": "7.2.5",
+        "@babel/preset-env": "7.3.4",
+        "@babel/preset-react": "7.0.0",
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "babel-core": "6.26.3",
+        "babel-loader": "8.0.5",
+        "babel-preset-react": "6.24.1",
+        "core-js": "^3.0.0",
+        "file-loader": "^6.0.0",
+        "regenerator-runtime": "^0.13.2",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.0.0",
+        "stimulus": "^2.0.0",
+        "webpack-notifier": "^1.6.0"
+    },
+    "dependencies": {
+        "animejs": "^3.2.1",
+        "bootstrap": "4.6.0",
+        "prop-types": "15.7.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    }
+}

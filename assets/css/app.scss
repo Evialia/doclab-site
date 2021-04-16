@@ -1,0 +1,26 @@
+@import "~bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import "./components/Badge";
+@import "./components/Footer";
+@import "./components/Input";
+@import "./components/Logo";
+@import "./components/SearchResult";
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+h1.title {
+    font-size: 1.6rem;
+    color: #c5afed;
+    position: absolute;
+    margin-top: -3rem
+}
+
+.capitalise {
+    text-transform: capitalize;
+}

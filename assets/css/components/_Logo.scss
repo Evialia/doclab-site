@@ -1,0 +1,41 @@
+.logo {
+    height: 20rem;
+    width: auto;
+    padding-top: 2rem;
+}
+
+.logo > svg {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(calc(-50% + 1rem));
+}
+
+.flask {
+    fill: #c5afed;
+    transform-origin: 50px 140px;
+}
+
+.liquid-clip {
+    transform-origin: 50px 140px;
+}
+
+.transparent {
+    fill: transparent;
+}
+
+.colour-liquid {
+    fill: #783bed;
+}
+
+.liquid {
+    transform-origin: 50px 140px;
+}
+
+.bubble-light {
+    fill: #a27bed;
+}
+
+.bubble-dark {
+    fill: #8e5ced;
+}
